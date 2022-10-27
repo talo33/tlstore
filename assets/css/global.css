@@ -1,0 +1,216 @@
+/* ROOT Variables */
+
+:root {
+    --color-text-black: #212121;
+    --color-text-gray: #777;
+    --color-white: #fff;
+    --color-text-gray-black: #909090;
+    --color-blue: #4db2ec;
+    --color-red: #ff2d2d;
+    --color-black-header: #23282d;
+    --color-black-footer: #2e2f30;
+    --color-deep-black-footer: #222527;
+    --color-orange: #f05510;
+    --color-border: #dadada;
+    --height-of-header: 120px;
+    --height-of-logo-search: 40px;
+    --height-of-navbar: 30px;
+}
+
+
+/* TEXT */
+
+
+/* text align */
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+
+/* test case */
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+
+/* text decordation */
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-overline {
+    text-decoration: overline;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+
+/* BACKGROUND */
+
+.bg-success {
+    background-color: #27ae60;
+}
+
+.bg-warning {
+    background-color: #f39c12;
+}
+
+
+/* PADDING */
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+
+/* FLOAT */
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-unset {
+    float: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    clear: both;
+    display: block;
+}
+
+
+/* DISPLAY */
+
+.hide-on-desktop {
+    display: none;
+}
+
+
+/* BUTTON */
+
+.btn {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    border: 1px solid var(--color-border);
+    padding: 3px 20px;
+    font-weight: normal;
+}
+
+.btn-blue {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    border: none;
+    outline: none;
+}
+
+
+/* GRID */
+
+.container {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.container.boxed {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* 
+.boxed {
+    max-width: 1140px;
+    margin: 0 auto;
+} */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
